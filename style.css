@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background: linear-gradient(#d607ff, #17bbbb);
+}
+
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.continer{
+    margin: 50px;
+    border-radius: 20px;
+    padding: 60px 40px;
+    background-color: white;
+}
+.formulario{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 2.2rem;
+    margin-bottom: 30px;
+}
+.username-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.username-div .username-input{
+    height: 40px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.password-div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.password-div .password-input{
+    height: 40px;
+    padding: 20px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.password-div .password-link{
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+}
+.btn-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-div .btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: linear-gradient(#d73cf6, #3f87a6)
+}
+.redes{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.redes .img-div{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+} 
+.redes .img-div .img{
+    width: 60px;
+}
+.singUp{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.singUp .singUp-link{
+    text-decoration: none;
+}
